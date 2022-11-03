@@ -5,7 +5,49 @@ export default function Form() {
     <section id="userForm">
       <Aside />
       <form></form>
-      <div></div>
+      <div>
+        <span>
+          <strong>2</strong>
+          &nbsp; &nbsp;
+          <p>Education</p>
+        </span>
+
+        <span>
+          <strong>2</strong>
+          &nbsp; &nbsp;
+          <p>Education</p>
+        </span>
+
+        <span>
+          <strong>2</strong>
+          &nbsp; &nbsp;
+          <p>Education</p>
+        </span>
+
+        <span>
+          <strong>2</strong>
+          &nbsp; &nbsp;
+          <p>Education</p>
+        </span>
+
+        <span>
+          <strong>2</strong>
+          &nbsp; &nbsp;
+          <p>Education</p>
+        </span>
+
+        <span>
+          <strong>2</strong>
+          &nbsp; &nbsp;
+          <p>Education</p>
+        </span>
+
+        <span>
+          <strong>2</strong>
+          &nbsp; &nbsp;
+          <p>Education</p>
+        </span>
+      </div>
     </section>
   );
 }
