@@ -168,6 +168,29 @@ aside {
     border: thin solid #BA0021;
 }
 
+
+/* user ======================================== */
+
+#user {
+    width: 100%;
+    height: 53vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#users {
+    width: 63vw;
+    height: 100%;
+}
+
+#bio {
+    width: 30vw;
+    height: 100%;
+    border: thin solid black;
+}
+
 /* footer ====================================================================== */
 
 footer {
