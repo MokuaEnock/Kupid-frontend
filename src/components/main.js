@@ -1,3 +1,9 @@
+import Landing from "./Pages/landing/landing";
+
 export default function Main() {
-  return <main>Main components</main>;
+  return (
+    <>
+      <Landing />
+    </>
+  );
 }
