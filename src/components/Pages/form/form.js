@@ -7,46 +7,45 @@ export default function Form() {
       <form></form>
       <div>
         <span>
-          <strong>2</strong>
+          <strong>1</strong>
           &nbsp; &nbsp;
-          <p>Education</p>
+          <p>Personal Information</p>
         </span>
 
         <span>
           <strong>2</strong>
           &nbsp; &nbsp;
-          <p>Education</p>
+          <p>Education History</p>
         </span>
 
         <span>
-          <strong>2</strong>
+          <strong>3</strong>
           &nbsp; &nbsp;
-          <p>Education</p>
+          <p>Food Restriction</p>
         </span>
 
         <span>
-          <strong>2</strong>
+          <strong>4</strong>
           &nbsp; &nbsp;
-          <p>Education</p>
+          <p>Interests</p>
         </span>
 
         <span>
-          <strong>2</strong>
+          <strong>5</strong>
           &nbsp; &nbsp;
-          <p>Education</p>
+          <p>About you</p>
         </span>
 
-        <span>
+        {/*<span>
           <strong>2</strong>
           &nbsp; &nbsp;
           <p>Education</p>
-        </span>
-
-        <span>
-          <strong>2</strong>
-          &nbsp; &nbsp;
-          <p>Education</p>
-        </span>
+        </span> */}
+        {/* ['age', 'status', 'sex', 'orientation', 'body_type', 'diet', 'drinks',
+       'drugs', 'education', 'ethnicity', 'height', 'income', 'job',
+       'last_online', 'location', 'offspring', 'pets', 'religion', 'sign',
+       'smokes', 'speaks', 'essay0', 'essay1', 'essay2', 'essay3', 'essay4',
+       'essay5', 'essay6', 'essay7', 'essay8', 'essay9'] */}
       </div>
     </section>
   );
