@@ -214,6 +214,24 @@ aside {
     width: 7vw;
     height: 100%;
     background-color: #BA0021;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+aside span {
+    width: 85%;
+    height: 11%;
+    border: thin solid white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #BA0021;
+    border-radius: 50%;
+    font-size: 1.5vw;
 }
 
 /* userForm ============================================================== */
