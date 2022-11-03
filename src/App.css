@@ -243,13 +243,23 @@ aside span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 
 #userForm>form {
     width: 68vw;
     height: 100%;
     border: thin solid #BA0021;
+    overflow-y: scroll;
+
+}
+
+.formInfo {
+    width: 90%;
+    height: 30%;
+    border: thin solid black;
+    margin-left: 5%;
+    border-radius: 1vw;
+    margin-top: 1vw;
 }
 
 #userForm>div {
@@ -285,7 +295,6 @@ aside span {
     align-items: center;
 }
 
-
 #userForm>div>span>p {
     height: 90%;
     width: 85%;
@@ -294,6 +303,21 @@ aside span {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
+
+#userForm>div>button {
+    width: 60%;
+    height: 8%;
+    border-radius: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 2vw;
+    color: #BA0021;
+    border: .5vw double #BA0021;
+
 }
 
 /* user ======================================== */

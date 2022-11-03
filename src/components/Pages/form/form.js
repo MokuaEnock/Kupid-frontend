@@ -4,7 +4,13 @@ export default function Form() {
   return (
     <section id="userForm">
       <Aside />
-      <form></form>
+      <form>
+        <div className="formInfo"></div>
+        <div className="formInfo"></div>
+        <div className="formInfo"></div>
+        <div className="formInfo"></div>
+        <div className="formInfo"></div>
+      </form>
       <div>
         <span>
           <strong>1</strong>
@@ -36,11 +42,7 @@ export default function Form() {
           <p>About you</p>
         </span>
 
-        {/*<span>
-          <strong>2</strong>
-          &nbsp; &nbsp;
-          <p>Education</p>
-        </span> */}
+        <button>Submit</button>
         {/* ['age', 'status', 'sex', 'orientation', 'body_type', 'diet', 'drinks',
        'drugs', 'education', 'ethnicity', 'height', 'income', 'job',
        'last_online', 'location', 'offspring', 'pets', 'religion', 'sign',
