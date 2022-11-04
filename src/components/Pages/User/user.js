@@ -10,11 +10,15 @@ export default function User() {
           <img src="#" alt="user" />
         </div>
         <div id="user_info">
-          <span></span>
-          <span id="user_info1"></span>
+          <span id="user_info1">
+            <p>Age: 27</p>
+            <p>Location: Kenya</p>
+            <p>Sex: Male</p>
+          </span>
           <span id="user_info2">
             <button>Like</button>
             <button>Message</button>
+            <button>View</button>
           </span>
         </div>
         <div id="user_buttons">
