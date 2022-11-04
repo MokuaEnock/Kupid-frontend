@@ -6,8 +6,17 @@ export default function User() {
       <Aside />
       <div id="users">
         <div id="user_title">Enock Mokua</div>
-        <div id="user_image"></div>
-        <div id="user_info"></div>
+        <div id="user_image">
+          <img src="#" alt="user" />
+        </div>
+        <div id="user_info">
+          <span></span>
+          <span id="user_info1"></span>
+          <span id="user_info2">
+            <button>Like</button>
+            <button>Message</button>
+          </span>
+        </div>
         <div id="user_buttons">
           <button>Previous</button>
           <button>Next</button>
