@@ -4,6 +4,7 @@ export default function Form() {
   return (
     <section id="userForm">
       <Aside />
+      
       <form>
         <div className="formInfo"></div>
         <div className="formInfo"></div>
@@ -11,6 +12,7 @@ export default function Form() {
         <div className="formInfo"></div>
         <div className="formInfo"></div>
       </form>
+
       <div>
         <span>
           <strong>1</strong>

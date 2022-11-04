@@ -340,7 +340,47 @@ aside span {
     width: 30vw;
     height: 100%;
     border: thin solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
+
+#bio form {
+    width: 85%;
+    height: 8%;
+    border: thin solid #BA0021;
+    margin-top: 1vw;
+    border-radius: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bio form input {
+    border: thin solid #BA0021;
+    width: 70%;
+    height: 95%;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    text-align: center;
+    font-size: 1.7vw;
+
+}
+
+#bio form button {
+    border: thin solid #BA0021;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    width: 30%;
+    height: 100%;
+    font-size: 1.7vw;
+    background-color: #BA0021;
+    color: white;
+
+}
+
 
 /* footer ====================================================================== */
 

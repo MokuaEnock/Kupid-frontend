@@ -5,7 +5,12 @@ export default function User() {
     <section id="user">
       <Aside />
       <div id="users"></div>
-      <div id="bio"></div>
+      <div id="bio">
+        <form>
+          <input type="text" placeholder="Search..." />
+          <button>Search</button>
+        </form>
+      </div>
     </section>
   );
 }
