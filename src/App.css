@@ -500,11 +500,27 @@ aside span {
     align-items: center;
 }
 
-#message>section>ul {
+#message_list {
     width: 30%;
     height: 100%;
     border: thin solid black;
+    list-style: none;
 
+}
+
+#message_list>span {
+    width: 80%;
+    height: 10vw;
+    border: thin solid black;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
+
+}
+
+#message_display {
+    width: 70%;
+    height: 100%;
+    border: thin solid black;
 }
 
 /* footer ====================================================================== */

@@ -5,8 +5,9 @@ export default function Message() {
     <section id="message">
       <Aside />
       <section>
-        <ul></ul>
-        <div></div>
+        <div id="message_list"></div>
+
+        <div id="message_display"></div>
       </section>
     </section>
   );
