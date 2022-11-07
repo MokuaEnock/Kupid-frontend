@@ -69,8 +69,8 @@ main>* {
 }
 
 #container1>button {
-    width: 60%;
-    height: 12%;
+    width: 45%;
+    height: 9%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -509,7 +509,7 @@ aside span {
 }
 
 #message li {
-    height: 10%;
+    height: 15%;
     margin-top: 1vw;
     margin-bottom: 1vw;
     width: 90%;
