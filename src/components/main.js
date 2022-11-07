@@ -14,14 +14,13 @@ export default function Main() {
       .then((r) => setUsers(r));
   }, []);
 
-  console.log(users);
   return (
     <>
       <Landing />
-      <Login />
-      <Form />
-      <User />
-      <Message />
+      <Login users={users} />
+      <Form users={users} />
+      <User users={users} />
+      <Message users={users} />
     </>
   );
 }
