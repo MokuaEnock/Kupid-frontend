@@ -505,16 +505,22 @@ aside span {
     height: 100%;
     border: thin solid black;
     list-style: none;
-
+    overflow-y: scroll;
 }
 
-#message_list>span {
-    width: 80%;
-    height: 10vw;
+#message li {
+    height: 15%;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 1vw;
     border: thin solid black;
-    margin-top: .5vw;
-    margin-bottom: .5vw;
-
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #message_display {
