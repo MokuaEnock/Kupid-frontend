@@ -3,11 +3,25 @@ import Aside from "../User/aside.js";
 export default function Message() {
   function changeColor() {
     let disp = document.querySelector("#message_display");
-    if (disp.style.background === "white") {
-      disp.style.background = "red";
+    if (disp.textContent === "") {
+      disp.textContent = "hello world";
     } else {
-      disp.style.background = "white";
+      disp.textContent = "";
     }
+  }
+
+  function Item({ changeColor }) {
+    return (
+      <li onClick={changeColor}>
+        <span id="message_image">
+          <img src="#" alt="avatar" />
+        </span>
+        <span id="message_body">
+          <div>Enock Mokua</div>
+          <div>Jskjd wcjc woncei wjjnejn</div>
+        </span>
+      </li>
+    );
   }
 
   return (
@@ -15,12 +29,7 @@ export default function Message() {
       <Aside />
       <section>
         <div id="message_list">
-          <li onClick={changeColor}>helllo wwjjwjwjwjjw</li>
-          <li>Message 1</li>
-          <li>Message 1</li>
-          <li>Message 1</li>
-          <li>Message 1</li>
-          <li>Message 1</li>
+          <Item />
         </div>
 
         <div id="message_display"></div>
